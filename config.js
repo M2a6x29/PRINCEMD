@@ -24,7 +24,7 @@ global.confirmCode = ""
 
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
+//💌global.pairingNumber = "+918208264840" //put your bot number here💌
 global.mods = ['923092668108'] 
 global.prems = ['923092668108']
 global.allowed = ['923092668108']
@@ -161,7 +161,7 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER;
+const ownervb = process.env.923092668108,Prince
 if (!ownervb){
    throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
 }
